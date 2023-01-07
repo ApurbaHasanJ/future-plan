@@ -1,4 +1,5 @@
 *{
+    text-decoration: none;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -62,30 +63,17 @@ main{
 .failure-section{
     display: flex;
     gap: 30px;
-    /* margin: 130px 200px 300px ; */
     margin: 130px 200px 0 200px;
 }
 
-.bgc-img{
-    /* position: absolute; */
-    background: bottom rgba(241, 91, 34, 0.2);
-    border-radius: 50%;
-    height: 527.93px;
-    
-}
 
 .dr-luna{
-    /* color: rgba(255, 192, 203, 0.862); */
-    /* background-image: url('rgba(241, 91, 34, 0.2)'); */
-    /* background: rgba(241, 91, 34, 0.2); */
-    /* background-position: center; */
-    /* border-radius: 50%; */
+    height: 527px;
 }
-
 
 
 .failure-about{
-    margin: 200px 80px 300px;
+    margin: 200px 80px 180px;
 
 }
 
@@ -104,9 +92,6 @@ main{
     margin-bottom: 16px;
 }
 
-.failure-ul-list{
-    padding: 0;
-}
 
 .failure-about-list{
     color: #444343;
@@ -119,6 +104,67 @@ main{
 .tick-mark{
     color: green;
 }
+
+
+
+/* Map The Future Together */
+.future-together{
+    margin-bottom: 150px;
+}
+
+.future-together-header{
+    background: rgb(235,154,48);
+    background: linear-gradient(0deg, rgba(235,154,48,1) 6%, rgba(212,98,32,0.981127485173757) 93%);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.ila-podcast{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 25px 0 25px 40px;
+}
+
+.podcast-header{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0 0 0 40px;
+}
+
+.podcast-side{
+    display: flex;
+    gap: 10px;
+}
+
+.Margaret-Heffernan-img{
+    margin-left: 40px;
+    width: 700px;
+}
+
+.with-Margaret-Heffernan{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Margaret-Heffernan-date{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.share-this-podcast{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.listen-podcast{
+    font-size: 17px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
 
 
 /* My Plan Section */
@@ -167,14 +213,12 @@ main{
     color: #737272;
 }
 
-
 /* Mindset Section */
 .mindset-section{
     width: 1140px;
     margin: 200px auto; 
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
     border-radius: 8px;
-    
 }
 
 .mindset{
@@ -182,9 +226,6 @@ main{
     height: 182px;
     padding: 59px 0 59px 59px;
     border-radius: 5px;
-
-
-
 }
 
 
@@ -213,7 +254,6 @@ main{
     height: 577px;
     display: flex;
     gap: 300px;
-    /* padding: 130px 0 130px 230px; */
 }
 
 
@@ -281,4 +321,9 @@ input[type="email"]{
     font-size: 20px;
     padding: 15px;
     border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+    color:#fe3300 ;
+    background-color: #f2ecec;
 }
