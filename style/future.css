@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: Work Sans;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Primary Button */
+.primary-btn{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.primary-btn:hover{
+    background-color: #f83a00;
+}
+
+/* Header Section */
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    
+
+}
+
+
+/* Main Section Items */
+
+
+/* Our Failure Section */
+.failure-section{
+    margin-top: 130px;
+}
+
+.dr-luna{
+    color: rgba(255, 192, 203, 0.697);
+}
+
+
+.header-items{
+    float: right;
+    text-align: right;
+    /* margin-right: 230px; */
+    margin:  216px 170px 170px 800px;
+
+}
+
+
+.banner-heading{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
