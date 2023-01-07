@@ -142,10 +142,8 @@ main{
 }
 
 .skill{
-    /* display: inline-block; */
     width: 25%;
     margin: 0 auto;
-    /* position: ; */
     text-align: center;
 
 }
@@ -169,12 +167,13 @@ main{
     color: #737272;
 }
 
+
 /* Mindset Section */
 .mindset-section{
     width: 1140px;
-    margin: 200px auto;
+    margin: 200px auto; 
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
-    height: 300px;
+    border-radius: 8px;
     
 }
 
@@ -182,7 +181,8 @@ main{
     width: 600px;
     height: 182px;
     padding: 59px 0 59px 59px;
-    /* margin: 59px 617px 59px 64px ; */
+    border-radius: 5px;
+
 
 
 }
@@ -204,4 +204,81 @@ main{
     font-size: 20px;
     padding: 15px;
     margin-top: 25px;
+}
+
+/* Footer Section */
+.footer-section{
+    background-color: #151414;
+    width: 100%;
+    height: 577px;
+    display: flex;
+    gap: 300px;
+    /* padding: 130px 0 130px 230px; */
+}
+
+
+/* Future Side */
+.future{
+    padding: 130px 0 130px 230px;
+}
+
+.future-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-description{
+    color: #F8F8F8;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.email-address{
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.phone-no{
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+
+.social-media{
+    margin-right: 15px;
+}
+
+
+/* Subscribe side */
+.subscribe-side{
+    padding: 130px 230px 130px 0;
+}
+
+.subscribe-header{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+
+input[type="email"]{
+    background-color: #151414;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 18px;
+    margin-bottom: 16px;
+}
+
+.subscribe-btn{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
 }
