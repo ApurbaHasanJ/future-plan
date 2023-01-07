@@ -54,7 +54,7 @@
 /* Main Section Items */
 main{
     max-width: 100%;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 
@@ -63,7 +63,7 @@ main{
     display: flex;
     gap: 30px;
     /* margin: 130px 200px 300px ; */
-    margin: 130px 200px 50px 200px;
+    margin: 130px 200px 0 200px;
 }
 
 .bgc-img{
@@ -135,16 +135,73 @@ main{
 
 .plan-skills{
     display: flex;
-    width: 50%;
-    margin: 0;
+    margin: 0 100px 0 100px ;
     gap: 80px;
     border: none;
     margin-bottom: 30px;
 }
 
 .skill{
-    padding: 100px;
-    display: inline-block;
+    /* display: inline-block; */
+    width: 25%;
+    margin: 0 auto;
+    /* position: ; */
+    text-align: center;
 
 }
 
+.skill img{
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.skill-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.skill-description{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+}
+
+/* Mindset Section */
+.mindset-section{
+    width: 1140px;
+    margin: 200px auto;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    height: 300px;
+    
+}
+
+.mindset{
+    width: 600px;
+    height: 182px;
+    padding: 59px 0 59px 59px;
+    /* margin: 59px 617px 59px 64px ; */
+
+
+}
+
+
+.mindset-header{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.call-now-btn{
+    background-color: #FFFFFF;
+    color: #F15B22; ;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 25px;
+}
