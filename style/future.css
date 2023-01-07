@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    font-family: Work Sans;
+    padding: 0;
+    list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -27,21 +28,6 @@
     
 
 }
-
-
-/* Main Section Items */
-
-
-/* Our Failure Section */
-.failure-section{
-    margin-top: 130px;
-}
-
-.dr-luna{
-    color: rgba(255, 192, 203, 0.697);
-}
-
-
 .header-items{
     float: right;
     text-align: right;
@@ -49,7 +35,6 @@
     margin:  216px 170px 170px 800px;
 
 }
-
 
 .banner-heading{
     color: #151414;
@@ -63,3 +48,103 @@
     line-height: 26px;
     margin-bottom: 32px;
 }
+
+
+
+/* Main Section Items */
+main{
+    max-width: 100%;
+    margin: o auto;
+}
+
+
+/* Our Failure Section */
+.failure-section{
+    display: flex;
+    gap: 30px;
+    /* margin: 130px 200px 300px ; */
+    margin: 130px 200px 50px 200px;
+}
+
+.bgc-img{
+    /* position: absolute; */
+    background: bottom rgba(241, 91, 34, 0.2);
+    border-radius: 50%;
+    height: 527.93px;
+    
+}
+
+.dr-luna{
+    /* color: rgba(255, 192, 203, 0.862); */
+    /* background-image: url('rgba(241, 91, 34, 0.2)'); */
+    /* background: rgba(241, 91, 34, 0.2); */
+    /* background-position: center; */
+    /* border-radius: 50%; */
+}
+
+
+
+.failure-about{
+    margin: 200px 80px 300px;
+
+}
+
+.failure-section-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.failure-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-ul-list{
+    padding: 0;
+}
+
+.failure-about-list{
+    color: #444343;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+
+}
+
+.tick-mark{
+    color: green;
+}
+
+
+/* My Plan Section */
+.plan-section{
+    margin: 0 auto;
+}
+
+.plan-header{
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-skills{
+    display: flex;
+    width: 50%;
+    margin: 0;
+    gap: 80px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.skill{
+    padding: 100px;
+    display: inline-block;
+
+}
+
